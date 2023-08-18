@@ -5,4 +5,12 @@ pluginManagement {
         gradlePluginPortal()
         mavenLocal()
     }
+    includeBuild("plugins")
+}
+
+dependencyResolutionManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
 }

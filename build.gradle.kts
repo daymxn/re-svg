@@ -3,16 +3,11 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     java
     alias(libs.plugins.kotlin.jvm)
-    alias(libs.plugins.runtime)
+    id("openrndr")
 }
 
 group = "com.daymxn"
 version = "1.0.0"
-
-repositories {
-    mavenCentral()
-    mavenLocal()
-}
 
 dependencies {
     implementation(libs.kotlinx.coroutines.core)
