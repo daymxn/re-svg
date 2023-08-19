@@ -5,7 +5,7 @@ pluginManagement {
         gradlePluginPortal()
         mavenLocal()
     }
-    includeBuild("plugins")
+    includeBuild("./plugins/openrndr")
 }
 
 dependencyResolutionManagement {
