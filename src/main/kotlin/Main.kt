@@ -32,6 +32,8 @@ fun main() = application {
         width = 900
         height = 900
         windowResizable = true
+        title = "re-svg"
+        vsync = true
     }
     program {
         val queue = QueueController()
