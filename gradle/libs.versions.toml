@@ -1,0 +1,13 @@
+[versions]
+kotlin = "1.8.21"
+openrndr = "0.4.3"
+orx = "0.4.3"
+
+[libraries]
+kotlin-script-runtime = { group = "org.jetbrains.kotlin", name = "kotlin-script-runtime", version.ref = "kotlin" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version = "1.6.4" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.github.johnrengelman.shadow", version = "7.1.2" }
+runtime = { id = "org.beryx.runtime", version = "1.13.0" }
